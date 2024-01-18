@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+
+
+body {
+    font-family: "Serif", roboto;
+
+
+}
+
+ 
+.nav-container{
+    border: 1px solid red;
+    min-height: 50px;
+    display:flex;
+    align-items: center;
+}
+.logo-container{
+    border:1px solid green;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+.logo-container img{
+    border:1px solid burlywood/;
+    width: 150px;
+    display: flex;
+    object-fit:cover;
+}
+.logo-container p{
+    font-size:40px;
+    border: 1px solid orange;
+    width: 200px;
+}
